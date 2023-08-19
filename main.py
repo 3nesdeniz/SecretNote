@@ -97,7 +97,7 @@ def dece():
     values_of_test = text_1.get("1.0", END)
     key = master_key.get()
     maintitle = title.get()
-    if len(values_of_test)==0 or len(key)==0 or len(maintitle)==0:
+    if len(values_of_test)==0 or len(key)==0 :
         messagebox.showerror(title="Empty Index",message="Please Enter All Index")
 
     else:
